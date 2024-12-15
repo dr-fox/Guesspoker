@@ -316,7 +316,7 @@
 
         // 選擇 INTP
         function choseMBTI(){
-            if (Number.isNaN(correctCardNum)){correctCardNum = 0}
+            if (Number.isNaN(correctCardNum)){correctCardNum = 1}
 
             document.body.style.height = 'auto';  // 或者 'auto'
             const container2 = document.querySelector('.container2');
@@ -368,7 +368,7 @@
 
         // 選擇 慣用手
         function choseDominantHand(){
-            if (Number.isNaN(correctCardNum)){correctCardNum = 2}
+            if (Number.isNaN(correctCardNum)){correctCardNum = 0}
 
             const container2 = document.querySelector('.container2');
             container2.innerHTML = ''; // 清空現有內容
@@ -410,7 +410,7 @@
 
         // 選擇 性格
         function chosePersonality(){
-            if (Number.isNaN(correctCardNum)){correctCardNum = 1}
+            if (Number.isNaN(correctCardNum)){correctCardNum = 2}
 
             const container2 = document.querySelector('.container2');
             container2.innerHTML = ''; // 清空現有內容
